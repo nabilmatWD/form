@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="info-block col-10 mx-auto text-center">
+          <form action="" class="person" id="person">
+            <h4 class="title">Please fill out the form</h4>
+            <div class="message">Inserting a person to the list...</div>
+
+            <!-- Loader -->
+            <div class="loader">
+              <img src="img/loader.gif" alt="" />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-user"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control name"
+                id="name"
+                placeholder="first & last name"
+              />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-mail-bulk"></i
+                ></span>
+              </div>
+              <input
+                type="email"
+                class="form-control email"
+                id="email"
+                placeholder="email"
+              />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-calendar-day"></i
+                ></span>
+              </div>
+              <input
+                type="date"
+                class="form-control date"
+                id="dateOfBirth"
+                placeholder="date of birth"
+              />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-phone"></i
+                ></span>
+              </div>
+              <input
+                type="phone"
+                class="form-control phone"
+                id="phone"
+                placeholder="Phone number"
+              />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-city"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control city"
+                id="city"
+                placeholder="City"
+              />
+            </div>
+
+            <!-- Input field -->
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-home"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control country"
+                id="country"
+                placeholder="Country"
+              />
+            </div>
+
+            <!-- Social input -->
+            <div class="row social mx-auto text-center">
+              <!-- Input field -->
+              <div class="input-group col-md-6 group-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fab fa-facebook"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control facebook"
+                  id="facebook"
+                  placeholder="Facebook"
+                />
+              </div>
+
+              <!-- Input field -->
+              <div class="input-group col-md-6 group-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fab fa-twitter"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control twitter"
+                  id="twitter"
+                  placeholder="twitter"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-block btnSubmit clearfix">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <!--row-->
+
+      <!-- List info -->
+      <div class="container">
+        <div class="row persons">
+          <div class="card-block"></div>
+        </div>
+      </div>
+    </div>
+    <!--container-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
